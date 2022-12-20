@@ -10,25 +10,30 @@
 .container{
     display: flex;
     flex-direction: row;
+    height: 900px; 
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+
+    
+
 }
+
 #div1 {
     background: var(--purple);
-    width: 33.33%;
-    float: right;
-    height: 900px;
+    flex-basis: 500px;
 }
 #div2 {
     background: var(--light);
-    width: 33.33%;
-    float:left;
-    height: 900px;
+flex-basis:500px ;
+
     
 }
 #div3{
     background: var(--pink);
-    width: 33.33%;
-    margin: 0 auto;
-    height: 900px;
+
+    flex-basis: 500px;
+
 }
 
   
