@@ -1,0 +1,34 @@
+:root{
+    --dark: #374151;
+    --darker: #1F2937;
+    --darkest: #111827;
+    --gray: #6B7280;
+    --light: #EEE;
+    --pink: #EC4899;
+    --purple: #8B5Cf6;
+}
+.items active{
+
+    background-color: #6B7280;
+}
+#div{
+
+  background-color: #EC4899;  
+}
+h1{
+
+   font-style: italic; 
+   color: #EC4899;
+}
+img{
+    max-width: 500%;
+    padding : 20px;
+}
+h2{
+
+    font-weight: bolder;
+}
+.item
+h1{
+    color: #6B7280;
+}
