@@ -7,28 +7,60 @@
     --pink: #EC4899;
     --purple: #8B5Cf6;
 }
-.items active{
+.item {
+flex-direction: column;
 
-    background-color: #6B7280;
-}
-#div{
-
-  background-color: #EC4899;  
 }
 h1{
-
-   font-style: italic; 
-   color: #EC4899;
-}
-img{
-    max-width: 500%;
-    padding : 20px;
+    font-style:normal;
+    font-weight: bolder;
+    line-height: 50px;  
+    
 }
 h2{
+  font-size: 40px;
+  
+}
+ .firstcolumn{
+    float: left;
+    width: 50%; 
+    /* display: flex;
+    justify-content: center;
+    align-items: center;  */
+ 
+}
+   .secondcolumn{
+     padding: 20px; 
+     margin-top: 50px;
+     margin-bottom: 50px;  
+      display: flex;
+     justify-content: center;
+     align-items: center;
+      
 
-    font-weight: bolder;
+ }  
+.row{
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+    padding:50px;
+    align-items: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;  */
+    
+
+
 }
-.item
-h1{
-    color: #6B7280;
+  .img-flo{
+   margin-top: 20px;
+   margin-bottom: 20px;
+
+}    
+
+.firstcolumn h1{
+    font-size: 40px;
+    font-weight: bold;
 }
+  
