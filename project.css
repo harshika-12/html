@@ -31,8 +31,8 @@ h2{
 }
    .secondcolumn{
      padding: 20px; 
-     margin-top: 50px;
-     margin-bottom: 50px;  
+     /* margin-top: 50px;
+     margin-bottom: 50px;   */
       display: flex;
      justify-content: center;
      align-items: center;
@@ -49,7 +49,6 @@ h2{
     /* display: flex;
     justify-content: center;
     align-items: center;  */
-    
 
 
 }
@@ -63,4 +62,91 @@ h2{
     font-size: 40px;
     font-weight: bold;
 }
+  .item{
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+    padding:50px;
+    align-items: center;
+
+  } 
+  .abccolumn{
+    float: left;
+    width: 50% ;
+  }
+  .xyzcolumn{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px; 
+
+  }
+   .img-log{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  } 
+.img-logo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.secondcolumn{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .container{
+   min-width: 1700px;
+
+} 
+.item{
+    width: fit-content;
+    width: -moz-fit-content;
+}
+.carousel-control {
+background-image: none !important;
+}
+.indicator{
+    flex-direction: row;
+    display: flex;
+    justify-content: left;
+    
   
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+ .carousel-indicators {
+  position: relative;
+  left: 0;
+  margin-left: 0%;
+  
+} 
+.carousel-indicators li{
+background-color: #111827;
+width: 15px;
+height: 20px;
+
+} 
+.carousel-indicators .active{
+  background-color: #111827;
+  width: 15px;
+  height: 20px;
+}
+
+
+.glyphicon {
+  /* font-weight: bolder; */
+  font-size: 55px;
+}
+/* .glyphicon glyphicon-arrow-left{
+    padding: 100px;
+} */
+.glyphicon-arrow-left:before{
+  padding: 100px;
+}
